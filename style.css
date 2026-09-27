@@ -13,7 +13,7 @@ body {
 
 header {
     height: 70px;
-    background: white;
+    background: blue;
     display: flex;
     justify-content: space-between;
     align-items: center;
