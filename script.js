@@ -1,10 +1,9 @@
 const syllabus = {
-
     "Java": [
         "Java Basics",
-        "Variables & Data Types",
+        "Variables and Data Types",
         "Operators",
-        "Input & Output",
+        "Input and Output",
         "Conditional Statements",
         "Loops",
         "Patterns",
@@ -13,9 +12,9 @@ const syllabus = {
         "Arrays",
         "2D Arrays",
         "Strings",
-        "StringBuilder & StringBuffer",
-        "Object-Oriented Programming",
-        "Classes & Objects",
+        "StringBuilder",
+        "OOP",
+        "Classes and Objects",
         "Constructors",
         "Inheritance",
         "Polymorphism",
@@ -24,59 +23,56 @@ const syllabus = {
         "Encapsulation",
         "Exception Handling",
         "File Handling",
-        "Generics",
-        "Collections Framework",
+        "Collections",
         "ArrayList",
         "LinkedList",
         "HashSet",
         "HashMap",
-        "Stack & Queue",
+        "Stack",
+        "Queue",
+        "Generics",
         "Lambda Expressions",
         "Stream API",
         "Multithreading",
         "JDBC",
         "DSA with Java",
-        "Java Projects",
-        "Java Interview Questions"
+        "Projects",
+        "Interview Preparation"
     ],
 
     "Python": [
         "Python Basics",
-        "Variables & Data Types",
+        "Variables and Data Types",
         "Operators",
-        "Input & Output",
+        "Input and Output",
         "Conditional Statements",
         "Loops",
         "Functions",
-        "Lambda Functions",
+        "Recursion",
         "Lists",
         "Tuples",
         "Sets",
         "Dictionaries",
         "Strings",
         "List Comprehension",
-        "Modules & Packages",
+        "Modules and Packages",
         "Exception Handling",
         "File Handling",
-        "Object-Oriented Programming",
-        "Classes & Objects",
-        "Inheritance",
-        "Polymorphism",
+        "OOP",
         "NumPy",
         "Pandas",
         "Matplotlib",
-        "Seaborn",
         "APIs",
         "Database Connectivity",
-        "Python Projects",
+        "Projects",
         "Interview Preparation"
     ],
 
     "C++": [
         "C++ Basics",
-        "Variables & Data Types",
+        "Variables and Data Types",
         "Operators",
-        "Input & Output",
+        "Input and Output",
         "Conditional Statements",
         "Loops",
         "Functions",
@@ -85,12 +81,10 @@ const syllabus = {
         "Pointers",
         "References",
         "Structures",
-        "Classes & Objects",
+        "Classes and Objects",
         "Constructors",
         "Inheritance",
         "Polymorphism",
-        "Abstraction",
-        "Encapsulation",
         "STL",
         "Vector",
         "Stack",
@@ -107,8 +101,8 @@ const syllabus = {
 
     "HTML": [
         "HTML Basics",
-        "HTML Document Structure",
-        "Headings & Paragraphs",
+        "HTML Structure",
+        "Headings and Paragraphs",
         "Links",
         "Images",
         "Lists",
@@ -117,11 +111,10 @@ const syllabus = {
         "Input Elements",
         "Buttons",
         "Semantic HTML",
-        "Audio & Video",
         "HTML5",
         "Accessibility",
         "SEO Basics",
-        "Mini Projects"
+        "Projects"
     ],
 
     "CSS": [
@@ -129,9 +122,8 @@ const syllabus = {
         "Selectors",
         "Colors",
         "Fonts",
-        "Text Styling",
         "Box Model",
-        "Margin & Padding",
+        "Margin and Padding",
         "Borders",
         "Display",
         "Position",
@@ -141,10 +133,7 @@ const syllabus = {
         "Media Queries",
         "Animations",
         "Transitions",
-        "Pseudo Classes",
-        "Pseudo Elements",
-        "CSS Variables",
-        "UI Projects"
+        "Projects"
     ],
 
     "JavaScript": [
@@ -166,18 +155,16 @@ const syllabus = {
         "JSON",
         "ES6",
         "Arrow Functions",
-        "Destructuring",
         "Promises",
-        "Async & Await",
+        "Async and Await",
         "Fetch API",
         "APIs",
-        "Error Handling",
-        "JavaScript Projects"
+        "Projects"
     ],
 
     "SQL": [
         "Database Basics",
-        "DBMS & RDBMS",
+        "DBMS and RDBMS",
         "SQL Basics",
         "CREATE",
         "INSERT",
@@ -191,17 +178,14 @@ const syllabus = {
         "Aggregate Functions",
         "Joins",
         "Subqueries",
-        "Nested Queries",
-        "Views",
-        "Indexes",
         "Constraints",
         "Primary Key",
         "Foreign Key",
         "Normalization",
+        "Indexes",
         "Transactions",
-        "Stored Procedures",
         "SQL Projects",
-        "SQL Interview Questions"
+        "Interview Questions"
     ],
 
     "DSA": [
@@ -221,7 +205,6 @@ const syllabus = {
         "Linked List",
         "Stack",
         "Queue",
-        "Deque",
         "Binary Tree",
         "Binary Search Tree",
         "Heap",
@@ -232,7 +215,6 @@ const syllabus = {
         "Greedy Algorithms",
         "Dynamic Programming",
         "Bit Manipulation",
-        "Advanced Problems",
         "Coding Interview Practice"
     ],
 
@@ -246,7 +228,6 @@ const syllabus = {
         "Data Cleaning",
         "Exploratory Data Analysis",
         "Feature Engineering",
-        "Train/Test Split",
         "Linear Regression",
         "Logistic Regression",
         "KNN",
@@ -255,19 +236,16 @@ const syllabus = {
         "SVM",
         "Naive Bayes",
         "K-Means",
-        "Hierarchical Clustering",
         "PCA",
         "Model Evaluation",
         "Cross Validation",
         "Hyperparameter Tuning",
         "Machine Learning Projects",
-        "ML Deployment"
+        "Deployment"
     ],
 
     "Deep Learning": [
         "Python",
-        "NumPy",
-        "Pandas",
         "Mathematics",
         "Statistics",
         "Neural Networks",
@@ -283,89 +261,17 @@ const syllabus = {
         "GRU",
         "Transfer Learning",
         "Computer Vision",
-        "Natural Language Processing",
+        "NLP",
         "TensorFlow",
         "PyTorch",
         "Model Training",
         "Model Evaluation",
-        "Deep Learning Projects",
+        "Projects",
         "Deployment"
-    ],
-
-    "AI": [
-        "Python",
-        "Mathematics",
-        "Statistics",
-        "Data Structures",
-        "Machine Learning",
-        "Deep Learning",
-        "Natural Language Processing",
-        "Computer Vision",
-        "Neural Networks",
-        "Generative AI",
-        "Large Language Models",
-        "Prompt Engineering",
-        "Embeddings",
-        "Vector Databases",
-        "RAG",
-        "AI APIs",
-        "AI Agents",
-        "Model Fine-Tuning",
-        "AI Ethics",
-        "AI Projects",
-        "AI Deployment"
-    ],
-
-    "React": [
-        "JavaScript Basics",
-        "React Basics",
-        "Components",
-        "JSX",
-        "Props",
-        "State",
-        "Events",
-        "Conditional Rendering",
-        "Lists & Keys",
-        "Forms",
-        "Hooks",
-        "useState",
-        "useEffect",
-        "useContext",
-        "React Router",
-        "API Integration",
-        "Error Handling",
-        "Authentication",
-        "State Management",
-        "Performance Optimization",
-        "React Projects"
-    ],
-
-    "Node.js": [
-        "JavaScript Basics",
-        "Node.js Basics",
-        "NPM",
-        "Modules",
-        "File System",
-        "Events",
-        "HTTP",
-        "Express.js",
-        "REST APIs",
-        "Middleware",
-        "Routing",
-        "Authentication",
-        "Authorization",
-        "MongoDB",
-        "SQL Databases",
-        "CRUD Operations",
-        "Error Handling",
-        "API Security",
-        "Deployment",
-        "Backend Projects"
     ],
 
     "Git & GitHub": [
         "Git Basics",
-        "Git Installation",
         "git init",
         "git add",
         "git commit",
@@ -374,12 +280,12 @@ const syllabus = {
         "Branches",
         "Merge",
         "Merge Conflicts",
-        "Remote Repositories",
+        "Remote Repository",
         "git push",
         "git pull",
         "git clone",
-        "GitHub Repositories",
-        "README Files",
+        "GitHub Repository",
+        "README",
         "Issues",
         "Pull Requests",
         "Fork",
@@ -391,7 +297,7 @@ const syllabus = {
 
 function generateRoadmap() {
 
-    const name = document.getElementById("name").value;
+    const name = document.getElementById("name").value.trim();
     const skill = document.getElementById("skill").value;
     const career = document.getElementById("career").value;
 
@@ -423,9 +329,6 @@ function generateRoadmap() {
         roadmap = [
             "Python",
             "SQL",
-            "NumPy",
-            "Pandas",
-            "Statistics",
             "Machine Learning"
         ];
 
@@ -435,61 +338,64 @@ function generateRoadmap() {
 
         roadmap = [
             "Python",
-            "NumPy",
-            "Pandas",
-            "Statistics",
+            "SQL",
             "Machine Learning",
             "Deep Learning"
         ];
 
     } else if (career === "web") {
 
-        careerName = "Web Developer";
+        careerName = "Full Stack Developer";
 
         roadmap = [
             "HTML",
             "CSS",
             "JavaScript",
-            "Git & GitHub",
-            "React",
-            "Node.js",
-            "SQL"
-        ];
-
-    } else if (career === "ai") {
-
-        careerName = "AI Engineer";
-
-        roadmap = [
-            "Python",
-            "Machine Learning",
-            "Deep Learning",
-            "AI"
+            "SQL",
+            "Git & GitHub"
         ];
     }
 
-    const result = document.getElementById("roadmapResult");
+
+    const result = document.getElementById("careerResult");
 
     result.innerHTML = `
-        <h2>🚀 ${name}'s ${careerName} Roadmap</h2>
+        <div class="generated-roadmap">
 
-        <p>Click any topic to view its complete syllabus.</p>
+            <h2>🚀 ${name}'s Roadmap</h2>
 
-        <div class="roadmap-list">
-            ${roadmap.map((topic, index) => `
-                <div class="roadmap-item"
-                     onclick="showSyllabus('${topic}')">
+            <h3>${careerName}</h3>
 
-                    <span>${index + 1}. ${topic}</span>
+            <p>Click a technology to view its complete syllabus.</p>
 
-                    <button>View Syllabus →</button>
+            <div class="roadmap-list">
 
-                </div>
-            `).join("")}
+                ${roadmap.map((topic, index) => `
+                    
+                    <div class="roadmap-item">
+
+                        <span>
+                            ${index + 1}. ${topic}
+                        </span>
+
+                        <button onclick="showSyllabus('${topic}')">
+                            View Syllabus →
+                        </button>
+
+                    </div>
+
+                `).join("")}
+
+            </div>
+
+            <div id="syllabusResult"></div>
+
         </div>
-
-        <div id="syllabusResult"></div>
     `;
+
+    document.getElementById("result").scrollIntoView({
+        behavior: "smooth"
+    });
 }
 
 
@@ -500,16 +406,20 @@ function showSyllabus(topic) {
     const result = document.getElementById("syllabusResult");
 
     if (!topics) {
+
         result.innerHTML = `
             <div class="syllabus-card">
                 <h2>${topic}</h2>
                 <p>Syllabus will be added soon.</p>
             </div>
         `;
+
         return;
     }
 
+
     result.innerHTML = `
+
         <div class="syllabus-card">
 
             <h2>📚 ${topic} Complete Syllabus</h2>
@@ -519,20 +429,28 @@ function showSyllabus(topic) {
             <div class="syllabus-list">
 
                 ${topics.map((item, index) => `
+
                     <div class="syllabus-item">
 
-                        <input type="checkbox"
-                               id="${topic}-${index}">
+                        <input
+                            type="checkbox"
+                            id="topic-${index}"
+                        >
 
-                        <label for="${topic}-${index}">
+                        <label for="topic-${index}">
                             ${index + 1}. ${item}
                         </label>
 
                     </div>
+
                 `).join("")}
 
             </div>
 
         </div>
     `;
+
+    result.scrollIntoView({
+        behavior: "smooth"
+    });
 }
