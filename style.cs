@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f8fc;
+    color: #1f2937;
+}
+
+header {
+    height: 70px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #6c5ce7;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #6c5ce7;
+}
+
+.hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 80px 10%;
+    background: linear-gradient(135deg, #f5f3ff, #eef2ff);
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.tag {
+    color: #6c5ce7;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 65px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+.hero h1 span {
+    color: #6c5ce7;
+}
+
+.hero p {
+    font-size: 19px;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    background: #6c5ce7;
+    color: white;
+    padding: 14px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #5848d6;
+}
+
+.section {
+    padding: 80px 10%;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.section-text {
+    text-align: center;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.assessment-card {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+}
+
+.assessment-card label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.assessment-card input,
+.assessment-card select {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.assessment-card .btn {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.result-section {
+    background: #f0efff;
+}
+
+#resultBox {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+#careerResult {
+    margin-top: 25px;
+}
+
+.result-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+}
+
+.result-card h3 {
+    color: #6c5ce7;
+    margin-bottom: 15px;
+}
+
+.result-card li {
+    margin: 10px 0;
+}
+
+.roadmap-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.roadmap-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+}
+
+.number {
+    color: #6c5ce7;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.roadmap-card h3 {
+    margin-bottom: 10px;
+}
+
+.roadmap-card p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.stat {
+    background: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+}
+
+.stat h3 {
+    font-size: 35px;
+    color: #6c5ce7;
+    margin-bottom: 10px;
+}
+
+.stat p {
+    color: #666;
+}
+
+footer {
+    background: #171725;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+footer p {
+    margin-top: 10px;
+    color: #bbb;
+}
+
+@media (max-width: 800px) {
+
+    nav {
+        display: none;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+    .roadmap-container,
+    .dashboard {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerAI - Your Career Roadmap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Career<span>AI</span></div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#assessment">Assessment</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#dashboard">Dashboard</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+        <p class="tag">AI-POWERED CAREER PLATFORM</p>
+
+        <h1>
+            Build Your Career.<br>
+            <span>One Step at a Time.</span>
+        </h1>
+
+        <p>
+            CareerAI helps students discover their career path,
+            identify skill gaps and create a personalized learning roadmap.
+        </p>
+
+        <a href="#assessment" class="btn">Start Assessment</a>
+    </div>
+
+</section>
+
+
+<section id="assessment" class="section">
+
+    <h2>🧠 Skill Assessment</h2>
+
+    <p class="section-text">
+        Tell us about yourself and CareerAI will create a starting roadmap.
+    </p>
+
+    <div class="assessment-card">
+
+        <label>Your Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label>Choose your current skill</label>
+
+        <select id="skill">
+            <option value="">Select skill</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="web">Web Development</option>
+            <option value="ml">Machine Learning</option>
+            <option value="none">Beginner</option>
+        </select>
+
+        <label>What career interests you?</label>
+
+        <select id="career">
+            <option value="">Select career</option>
+            <option value="software">Software Engineer</option>
+            <option value="data">Data Scientist</option>
+            <option value="ml">Machine Learning Engineer</option>
+            <option value="web">Full Stack Developer</option>
+        </select>
+
+        <button onclick="generateRoadmap()" class="btn">
+            Generate My Roadmap
+        </button>
+
+    </div>
+
+</section>
+
+
+<section id="result" class="section result-section">
+
+    <div id="resultBox">
+
+        <h2>🎯 Your Career Result</h2>
+
+        <p id="welcomeText">
+            Complete the assessment to see your roadmap.
+        </p>
+
+        <div id="careerResult"></div>
+
+    </div>
+
+</section>
+
+
+<section id="roadmap" class="section">
+
+    <h2>🗺️ Personalized Roadmap</h2>
+
+    <div class="roadmap-container">
+
+        <div class="roadmap-card">
+            <div class="number">01</div>
+            <h3>Learn Fundamentals</h3>
+            <p>Build strong programming and computer science fundamentals.</p>
+        </div>
+
+        <div class="roadmap-card">
+            <div class="number">02</div>
+            <h3>Practice DSA</h3>
+            <p>Solve coding problems and improve problem-solving skills.</p>
+        </div>
+
+        <div class="roadmap-card">
+            <div class="number">03</div>
+            <h3>Build Projects</h3>
+            <p>Create real-world projects and upload them to GitHub.</p>
+        </div>
+
+        <div class="roadmap-card">
+            <div class="number">04</div>
+            <h3>Prepare for Interviews</h3>
+            <p>Practice technical interviews, HR questions and resume preparation.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="dashboard" class="section">
+
+    <h2>📊 Progress Dashboard</h2>
+
+    <div class="dashboard">
+
+        <div class="stat">
+            <h3>0</h3>
+            <p>Skills Completed</p>
+        </div>
+
+        <div class="stat">
+            <h3>0</h3>
+            <p>Projects</p>
+        </div>
+
+        <div class="stat">
+            <h3>0%</h3>
+            <p>Roadmap Progress</p>
+        </div>
+
+        <div class="stat">
+            <h3>0</h3>
+            <p>Problems Solved</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer>
+    <h3>CareerAI</h3>
+    <p>Helping students build their future, one skill at a time.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
